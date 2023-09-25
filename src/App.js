@@ -12,7 +12,7 @@ function App() {
     fetch(url)
       .then((response) => response.json())
       .then((data) => {
-        setAffirmation([{ body: dadta.affirmation }]);
+        setAffirmation([{ body: data.affirmation }]);
       });
   };
 
