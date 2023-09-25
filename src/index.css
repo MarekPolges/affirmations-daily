@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+body {
+  background-image: url("/Users/marekpolgesek/Desktop/{coding, dev}/Frontend Projects/affirmations-daily/src/images/zen-room.png");
+  background-size: cover;
+  margin: 0;
+  font-family: "Hammersmith One";
+  min-width: 490px;
+}
+
+main {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 1em;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  color: rgb(177, 160, 240);
+  text-transform: uppercase;
+  text-shadow: 1px 2px 4px black, 2px 4px 0 #7c26b5, 3px 3px 0 #d8daa2;
+  margin: 20px;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 790px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+form {
+  border: 1px solid black;
+  padding: 1em;
+  border-radius: 5px;
+  width: 100%;
+  margin: auto;
+  max-width: 400px;
+}
+
+.generator-btn {
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  border-radius: 50px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: all, 0.5s;
+  text-align: center;
+}
+
+.affirmation-card {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0.8em;
+  margin-top: 15px;
+  background-color: rgb(255, 219, 195);
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px black;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px white;
+  color: rgb(177, 160, 240);
+  text-transform: uppercase;
+  min-width: 436px;
+  text-shadow: 1px 1px 2px black, 2px 2px 0 #7c26b5, 3px 3px 0 #d8daa2;
+}
+
+
+.button-container {
+  text-align: center;
+  padding: 10px;
+}
+
+.button-54 {
+  padding: 300px;
+  font-family: "Croissant One";
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3x solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 50%;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
