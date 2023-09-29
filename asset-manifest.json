@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/affirmations-daily/static/css/main.66c3f4f7.css",
+    "main.css": "/affirmations-daily/static/css/main.2802b761.css",
     "main.js": "/affirmations-daily/static/js/main.1f7ec0a2.js",
     "static/js/787.11c9d492.chunk.js": "/affirmations-daily/static/js/787.11c9d492.chunk.js",
     "static/media/zen-room.png": "/affirmations-daily/static/media/zen-room.ae30938a6278384d515d.png",
     "index.html": "/affirmations-daily/index.html",
-    "main.66c3f4f7.css.map": "/affirmations-daily/static/css/main.66c3f4f7.css.map",
+    "main.2802b761.css.map": "/affirmations-daily/static/css/main.2802b761.css.map",
     "main.1f7ec0a2.js.map": "/affirmations-daily/static/js/main.1f7ec0a2.js.map",
     "787.11c9d492.chunk.js.map": "/affirmations-daily/static/js/787.11c9d492.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66c3f4f7.css",
+    "static/css/main.2802b761.css",
     "static/js/main.1f7ec0a2.js"
   ]
 }
